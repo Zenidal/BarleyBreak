@@ -1,0 +1,101 @@
+body {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.siteContainer {
+    width: 30%;
+    margin: 0 auto;
+    border-right: 3px solid;
+    border-left: 3px solid;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.gameContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.newGame {
+    text-align: center;
+}
+
+.newGame button {
+    border: 15px solid black;
+    width: 150px;
+    height: 70px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    background-color: green;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.gameField {
+    margin: 0 auto;
+    padding: 30px;
+    border: 5px solid green;
+}
+
+.completeGame {
+    background-color: green;
+}
+
+.gameCell {
+    display: inline-block;
+    margin-right: 5px;
+    border: 3px solid;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 200%;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.gameCell:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.invisible {
+    display: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.statistics {
+    width: 30px;
+    height: 30px;
+}
+
+@media only screen and (max-device-width: 1150px) {
+    .gameContainer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .gameCell {
+        width: 23%;
+    }
+
+    .siteContainer {
+        width: 100%;
+    }
+
+    .gameField {
+        padding: 5px;
+        margin: 0;
+        width: 100%;
+    }
+}
