@@ -1,0 +1,3 @@
+frontend/bundle.js
+frontend/node_modules/*
+.idea/*
